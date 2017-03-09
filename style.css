@@ -1,0 +1,339 @@
+@font-face{
+
+	font-family: pacifico;
+	src:url("Pacifico.ttf");
+}
+
+@font-face{
+
+	font-family: BEBAS;
+	src:url("BEBAS.TTF");
+}
+
+@font-face{
+	font-family: tanjib;
+	src:url("HelveticaNeue Medium.ttf");
+}
+
+body{
+
+	margin:0px;
+	padding: 0;
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+	margin : 0;
+	padding: 0;
+}
+
+.wrapper{
+
+	width: 960px;
+	margin:0 auto;
+}
+.left{
+
+	float: left;
+}
+.right{
+
+	float: right;
+	margin-top: -61px;
+}
+.header{
+	/*border: 2px solid red;*/
+	height: 60px;
+	width: 100%;
+	overflow: hidden;
+}
+.logoleft{
+	font-family: Pacifico;
+}
+.navigation ul li {
+
+list-style: none;
+display:inline-block;
+/*margin-left: 75px;*/
+text-transform: uppercase;
+margin:28px;
+margin-top:0px;
+font-size: smaller;
+top:0px;
+color: black;
+font-weight: bold;
+font-family: BEBAS;
+}
+
+.navigation right{
+	margin-top: -61px;
+}
+.navigation ul li span{
+
+	display: block;
+	text-transform: uppercase;
+	color: grey;
+	/*margin-bottom: 0px;*/
+	font-weight: bold;
+	margin-top:0px;
+}
+
+.slider_image{
+
+	margin-top: 3px;
+	position: relative;
+}
+
+.slider_text{
+	position: absolute;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	background:grey;
+	bottom:179px;
+	font-family: BEBAS;
+	padding: 0px 10px;
+
+}
+.slider_text h1{
+	color: white;
+}
+.slider_caption h2{
+text-transform: uppercase;
+font-family: BEBAS;
+background:rgb(246,246,246);
+
+}
+
+.slider_caption p{
+	font-family: tanjib;
+    background:rgb(246,246,246);
+    text-align: justify;
+
+}
+
+.ms{
+	background:rgb(246,246,246);
+    margin-top: -6px;
+}
+.menu{
+	/*border: 2px solid red;*/
+	/*position: absolute;*/
+	padding-top:73px;
+}
+
+.menu1{
+/*border:5px solid green;*/
+width: 30%;
+position: relative;
+
+}
+.menu1 img{
+	float: left;
+}
+.menu1 h3{
+	font-size: 18px;
+	color: rgb(75,75,75);
+    position: absolute;
+	left: 18px;
+	font-family: BEBAS;
+	position: relative;
+	
+
+}
+.text p{
+
+	color: rgb(75,75,75);
+	font-family: BEBAS;
+	margin-bottom: 5px;
+	position: absolute;
+	bottom: -300px;
+}
+
+.menu1 p{
+	float: left;
+	font-family: tanjib;
+	color: rgb(113,113,113);
+}
+
+.menu2{
+/*border:5px solid green;*/
+margin-left: 21px;
+width: 30%;
+position: relative;
+display: inline-block;
+
+}
+.menu2 img{
+	float: left;
+	position: absolute;
+	left: 0px;
+top: -48px;
+
+}
+
+.menu2 h3{
+	font-size: 18px;
+	color: rgb(75,75,75);
+	position: absolute;
+	left: 65px;
+	float: right;
+	font-family:BEBAS;
+	text-align: justify;
+	top: -48px;
+}
+
+.menu2 p{
+	float: left;
+	font-family: tanjib;
+	color: rgb(113,113,113);
+}
+
+.text2 p{
+	position: absolute;
+	font-family: BEBAS;
+	color: rgb(75,75,75);
+	left:500px;
+}
+
+.menu3{
+margin-left: 669px;
+width: 30%;
+position: relative;
+display: inline-block;
+top: -251px;
+
+}
+.menu3 img{
+	float: left;
+
+}
+
+.menu3 h3{
+	font-size: 18px;
+	color: rgb(71,71,71);
+    position: absolute;
+	left: 85px;
+	margin-left: 2px;
+font-family: BEBAS;
+
+}
+.text3 p{
+	position: absolute;
+font-family: BEBAS;
+color: rgb(75,75,75);
+left: 861px;
+bottom: -314px;
+}
+.menu3 p{
+	float: left;
+	font-family: tanjib;
+	color: rgb(75,75,75);
+}
+
+.ps{
+	padding-top: 92px;
+}
+.p_image{
+	position: relative;
+}
+
+.p_text{
+
+	position: absolute;
+	text-transform: uppercase;
+	background-color: white;
+    bottom: -474px;
+    left: 509px; 
+    font-family: BEBAS;
+    font-size: small;
+}
+.pmain{
+	margin-top: -164px;
+}
+
+.project1{
+
+	/*border: 2px solid red;*/
+	width: 25%;
+	display: inline-block;
+	margin-top: 81px;
+}
+
+.project2{
+	/*border: 2px solid red;*/
+	width: 25%;
+	display: inline-block;
+}
+
+.project3{
+	/*border: 2px solid red;*/
+	width: 25%;
+	display: inline-block;
+}
+
+.project4{
+	/*border: 2px solid red;*/
+	width: 18%;
+	display: inline-block;
+	overflow: hidden;
+	position: absolute;
+    bottom:-970px;
+}
+
+.project1 h4{
+	font-family: BEBAS;
+	color: rgb(96,96,96);
+}
+
+.project1 p{
+
+	font-family: tanjib;
+	color: rgb(75,75,75);
+	/*text-align: justify;*/
+}
+.project2 h4{
+	font-family: BEBAS;
+	color: rgb(96,96,96);
+}
+
+.project2 p{
+
+	font-family: tanjib;
+	color: rgb(75,75,75);
+	/*text-align: justify;*/
+}
+
+.project3 h4{
+	font-family: BEBAS;
+	color: rgb(96,96,96);
+}
+
+.project3 p{
+
+	font-family: tanjib;
+	color: rgb(75,75,75);
+	/*text-align: justify;*/
+}
+
+.project4 h4{
+	font-family: BEBAS;
+	color: rgb(96,96,96);
+}
+
+.project4 p{
+
+	font-family: tanjib;
+	color: rgb(75,75,75);
+	/*text-align: justify;*/
+}
+.text4{
+font-family: BEBAS;
+color: rgb(75,75,75);
+}
+
+.footer{
+
+	margin-left: 191px;
+}
+
